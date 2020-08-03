@@ -1,0 +1,67 @@
+{	
+
+	"pages": [ 
+		{
+			"path": "pages/HomePage",
+			"style": {
+				"navigationBarTitleText": "一本日记",
+				"enablePullDownRefresh":true
+			},
+			"permission": {
+				"scope.userLocation": {
+				  "desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+				},
+				"scope.userInfo": {
+					"desc": "你的用户信息将用于小程序个人信息展示"
+				}
+			}
+		},
+		{
+			"path": "pages/AddPage",
+			"style": {
+				"navigationBarTitleText": "添加日记"
+			}
+		},
+		{
+			"path": "pages/MyPage",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+	
+		{
+			"path": "pages/show",
+			"style": {
+				"navigationBarTitleText": "日记详情"
+			}
+		},
+		
+		{
+			"path": "pages/photoAlbum/index",
+			"style": {
+				"navigationBarTitleText": "图库"
+			}
+		}
+	],
+
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/HomePage",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home2.png"			
+			},{
+				"pagePath": "pages/MyPage",
+				"iconPath": "static/images/my.png",
+				"selectedIconPath": "static/images/my2.png"
+			}
+		]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "一本日记",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

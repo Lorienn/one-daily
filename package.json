@@ -73,9 +73,12 @@
     "@vue/cli-service": "~4.4.0",
     "babel-plugin-import": "^1.11.0",
     "cross-env": "^7.0.2",
+    "echarts": "^4.8.0",
     "jest": "^25.4.0",
+    "md5": "^2.2.1",
     "mini-types": "*",
     "miniprogram-api-typings": "*",
+    "mpvue-echarts": "^0.3.2",
     "postcss-comment": "^2.0.0",
     "vue-template-compiler": "^2.6.11"
   },

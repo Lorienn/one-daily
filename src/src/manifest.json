@@ -54,6 +54,11 @@
 
 	},
 	"mp-weixin": { /* 微信小程序特有相关 */
+		"permission": {
+			"scope.userLocation": {
+			  "desc": "请求获取您的位置信息"
+			}
+		  },
 		"appid": "",
 		"setting": {
 			"urlCheck": false
